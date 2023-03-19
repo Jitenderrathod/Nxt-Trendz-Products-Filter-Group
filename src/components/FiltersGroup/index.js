@@ -21,7 +21,7 @@ const FiltersGroup = props => {
         >
           <img
             src={rating.imageUrl}
-            alt={`rating-${rating.ratingId}`}
+            alt={`rating ${rating.ratingId}`}
             className="rating-image"
           />
           <p className={ratingClassName}>& up</p>
